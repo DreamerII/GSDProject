@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_white">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/tvEnterMail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text_enter_email"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:padding="16dp"/>
+
+    <EditText
+        android:layout_below="@id/tvEnterMail"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:hint="@string/text_email"
+        android:background="@drawable/br_edittext"
+        android:layout_margin="8dp"
+        android:padding="8dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/color_green"
+        android:padding="16dp"
+        android:gravity="center"
+        android:layout_alignParentBottom="true">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_reset_pass"
+            android:textSize="16dp"
+            android:textColor="@color/color_white"/>
+    </LinearLayout>
+
+    </RelativeLayout>
+</LinearLayout>

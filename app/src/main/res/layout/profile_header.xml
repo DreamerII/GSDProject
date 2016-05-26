@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#111"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:elevation="6dp"
+        android:id="@+id/iv_profileAvatar_IDHM"
+        android:layout_width="76dp"
+        android:layout_height="76dp"
+        android:layout_centerHorizontal="true"
+        app:civ_border_color="@android:color/white"
+        app:civ_border_width="4dp"
+        android:layout_marginRight="8dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="David Blain"
+            android:textColor="@color/color_white"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/color_white"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:text="Balance: GHc 1,500"/>
+    </LinearLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,94 @@
+<resources>
+    <string name="app_name">GSDStudentApp</string>
+
+    <string name="button_text_skip">Skip</string>
+    <string name="tool_text_welcome">WELCOME</string>
+    <string name="text_welcome_login">Welcome to the GSD Card App</string>
+    <string name="text_title_welcome">Find and share deals exclusive to member of GSD Card</string>
+    <string name="button_login">Login to my Account</string>
+    <string name="text_show_deals">I`ll login later, show me the deals! ></string>
+    <string name="text_dont_have_gsd">Don`t have a GSD Card?</string>
+    <string name="text_register_title">Register online today and start saving money with all our exclusive student deals!</string>
+    <string name="button_register">Register for GSD Card</string>
+    <string name="text_activate">Activate My GSD Card</string>
+    <string name="button_activate">ACTIVATE</string>
+    <string name="text_students_licence">STUDENT`S LICENCE TO SAVE</string>
+    <string name="button_text_login">Login</string>
+    <string name="text_forgot">Forgot Password?</string>
+    <string name="title_forgot">Forgot Password</string>
+    <string name="text_enter_email">Enter your email address below and we will send password reset link to your email</string>
+    <string name="text_email">Email Address</string>
+    <string name="text_reset_pass">Send Password Reset</string>
+    <string name="text_mobile_no">Mobile No</string>
+    <string name="text_card_no">Card No</string>
+    <string name="text_register">Register</string>
+    <string name="text_title">TITLE</string>
+    <string name="text_fname">FIRST NAME</string>
+    <string name="text_sname">SURNAME</string>
+    <string name="text_email_address">EMAIL ADDRESS</string>
+    <string name="text_verify_email">VERIFY EMAIL ADDRESS</string>
+    <string name="text_password">PASSWORD</string>
+    <string name="text_confirm_password">CONFIRM PASSWORD</string>
+    <string name="text_complete_profile">Complete profile</string>
+    
+    <string name="text_all_deals">All Deals</string>
+    <string name="text_dashboard">Dashboard</string>
+
+    //Settings
+    <string name="text_preference">Preferences</string>
+    <string name="text_sounds">Sounds</string>
+    <string name="text_change_pass">Change Password</string>
+    <string name="text_log_out">Log Out</string>
+    <string name="text_about">About</string>
+    <string name="text_policy">Privacy Policy</string>
+    <string name="text_terms">Terms of Service</string>
+    <string name="text_version">About This Version</string>
+    <string name="text_support">Support</string>
+    <string name="text_report">Report a Problem</string>
+    
+    //WithDraw
+    <string name="text_select_withdraw">Please select your withdraw option below</string>
+    <string name="text_withdraw_mobile">WITHDRAW TO ANY MOBILE MONEY WALLET</string>
+    <string name="text_bank_account">WITHDRAW TO ANY BANK ACCOUNT</string>
+    <string name="text_agent_campus">WITHDRAW AT GSD AGENT ON YOUR CAMPUS</string>
+    <string name="text_note">Note:</string>
+    <string name="text_payments">Payments may take 24 hours to reflect...</string>
+    <string name="text_agent_cash">Agent is to pay you cash</string>
+    <string name="button_close">Close</string>
+
+    //Send money
+    <string name="text_enter_wallet">Please enter your receivers` GSD Wallet Mobile number below</string>
+    <string name="text_gsd_wallet">GSD WALLET MOBILE NUMBER</string>
+    <string name="text_sending_free">SENDING FREE</string>
+    <string name="button_send_money">Send Money</string>
+    <string name="text_name">NAME:</string>
+    <string name="text_institution">INSTITUTION:</string>
+    <string name="text_total">TOTAL AMOUNT</string>
+    <string name="text_enter_pin">ENTER PIN TO CONFIRM TRANSFER</string>
+
+    //Transaction
+    <string name="button_load">Load</string>
+    <string name="button_previous">Previous</string>
+    <string name="button_next">Next</string>
+    <string name="button_back">Back</string>
+
+    <string name="item_open">Open</string>
+    <string name="item_close">Close</string>
+
+    <string-array name="gender">
+        <item>male</item>
+        <item>female</item>
+    </string-array>
+
+    <string-array name="list_items">
+        <item>My GSD Wallet</item>
+        <item>Add Cash to Wallet</item>
+        <item>Voucher Agent Location</item>
+        <item>Transaction History</item>
+        <item>Buy Discounted...</item>
+        <item>Send Money</item>
+        <item>Withdraw Cash</item>
+        <item>Settings</item>
+        <item>Logout</item>
+    </string-array>
+</resources>
